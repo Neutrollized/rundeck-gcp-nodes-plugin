@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - updated `rundeck-core` to `3.2.6-20200427`
 - updated `commons-beanutils` from `1.9.3` to `1.9.4`
 - updated `apache-log4j` from `1.2.15` to `1.2.17`
+### Fixed
+- updated gradle-wrapper.properties adistributionUrl` to use https
 
 ## [3.0.22-1] - 2019-05-30
 ### Changed
