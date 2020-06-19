@@ -35,7 +35,7 @@ You will need to add the following labels to your GCP VMs if you want more accur
 *** No longer a requirement from `v2.7.1-2` onward ***
 
 
-## Notes
+## Mapping Params
 
 By default, your connection string (denoted by the `User @ Host` column in your project nodes page) is `rundeck@hostname`, but if you want it to show IP instead you can set the `hostname.selector` attribute to `networkInterfaces` or `accessConfigs` for internal and external(NAT) IPs respectively
 
