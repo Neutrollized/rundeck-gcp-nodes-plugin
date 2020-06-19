@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [3.2.6-1] - 2020-06-19
+### Changed
+- updated `axion-release plugin` to `1.10.3`
+- updated `rundeck-core` to `3.2.6-20200427`
+- updated `commons-beanutils` from `1.9.3` to `1.9.4`
+### Fixed
+- updated `distributionUrl` to use https
+
 ## [3.0.22-1] - 2019-05-30
 ### Changed
 - updated `axion-release plugin` to `1.10.1`

@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/Neutrollized/rundeck-gcp-nodes-plugin.svg?branch=rundeck-3.0.22)](https://travis-ci.org/Neutrollized/rundeck-gcp-nodes-plugin)
+[![Build Status](https://travis-ci.org/Neutrollized/rundeck-gcp-nodes-plugin.svg?branch=rundeck-3.2.6)](https://travis-ci.org/Neutrollized/rundeck-gcp-nodes-plugin)
 [![Code Climate](https://codeclimate.com/github/Neutrollized/rundeck-gcp-nodes-plugin.png)](https://codeclimate.com/github/Neutrollized/rundeck-gcp-nodes-plugin)
 
 # Rundeck GCP Nodes Plugin
-[![GitHub release](https://img.shields.io/badge/release-v3.0.22--1-blue.svg)](https://github.com/Neutrollized/rundeck-gcp-nodes-plugin/releases)
+[![GitHub release](https://img.shields.io/badge/release-v3.2.6--1-blue.svg)](https://github.com/Neutrollized/rundeck-gcp-nodes-plugin/releases)
 
 ### [CHANGELOG](https://github.com/Neutrollized/rundeck-gcp-nodes-plugin/blob/master/CHANGELOG.md)
 
@@ -15,7 +15,7 @@ If you're still running Rundeck v2.x, please use one of the releases labeled v2.
 
 Download from the [releases page](https://github.com/Neutrollized/rundeck-gcp-nodes-plugin/releases).
 
-Put the `rundeck-gcp-nodes-plugin-3.0.22-1.jar` into your `$RDECK_BASE/libext` dir.
+Put the `rundeck-gcp-nodes-plugin-3.2.6-1.jar` into your `$RDECK_BASE/libext` dir.
 
 You must also authenticate the rundeck-gcp-nodes-plugin to your google cloud platform
 project.
@@ -35,7 +35,7 @@ You will need to add the following labels to your GCP VMs if you want more accur
 *** No longer a requirement from `v2.7.1-2` onward ***
 
 
-## Notes
+## Mapping Params
 
 By default, your connection string (denoted by the `User @ Host` column in your project nodes page) is `rundeck@hostname`, but if you want it to show IP instead you can set the `hostname.selector` attribute to `networkInterfaces` or `accessConfigs` for internal and external(NAT) IPs respectively
 
