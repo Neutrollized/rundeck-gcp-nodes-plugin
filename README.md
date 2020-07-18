@@ -48,4 +48,4 @@ By default, your connection string (denoted by the `User @ Host` column in your 
 
 ### Disclaimer
 
-My work is built off of the work done by [jameshcoppens](https://github.com/jameshcoppens/rundeck-gcp-nodes-plugin) and I've only branched it off to updated/maintain it seeing as there are typos in the README that has gone unaddressed and hasn't been updated for ~2+ years.  There were some functionality/features I wanted to add for my own use (and at work) so here we are... :)
+My work is built off of the work done by [jameshcoppens](https://github.com/jameshcoppens/rundeck-gcp-nodes-plugin) and I've only branched it off to updated/maintain it seeing as there are typos in the README that has gone unaddressed and hasn't been updated for 4+ years.  There were some functionality/features I wanted to add for my own use (and at work) so here we are... :)
