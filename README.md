@@ -19,10 +19,12 @@ Put the `rundeck-gcp-nodes-plugin-3.2.6-1.jar` into your `$RDECK_BASE/libext` di
 
 You must also authenticate the rundeck-gcp-nodes-plugin to your google cloud platform
 project.
-* Log into your Google Cloud Platform console, go to the API-Manager, then go to credentials
-* Then go to Create Credentials, Service account key.  Under the service account drop down select New Service Account. Name the service account rundeck-gcp-nodes-plugin.  Make sure the key type is JSON
+* Log into your Google Cloud Platform console, go to the *API & Services*, then go to *Credentials*
+* Hit *Create Credentials*, *Service account*.  In the service account details, enter **rundeck-gcp-nodes-plugin** as the service account name.  Make sure the key type is JSON
 * IAM roles required: Project `Browser` & Compute Engine `Compute Viewer`  
+* After creation of the SA, you may have to go in to see the details of the account and under *Keys* hit *ADD KEY* and create new key of JSON type.
 * Rename the JSON file to `rundeck-gcp-nodes-plugin-PROJECTID.json` and place it in /etc/rundeck/ (replace `PROJECTID` with your GCP project id)
+* Restart Rundeck
 
 
 ## Requirements
