@@ -43,11 +43,11 @@ By default, your connection string (denoted by the `User @ Host` column in your 
 
 ### Bugs/TODOs:
 
-`Only Running Instances` in the resource config doesn't work, it will always report the nodes regardless of state.
+1. `Only Running Instances` in the resource config doesn't work, it will always report the nodes regardless of state.
 
-If plugin isn't listing your VMs if unless they have an External IP, you can do the following workaround (until I have time to put in a proper fix):
+2. If plugin isn't listing your VMs if unless they have an External IP, you can do the following workaround (until I have time to put in a proper fix):
 * In *Node Sources*, set `Use Default Mapping` to `no`
-* Specify your own `Mapping Params` (delimited by semi-colon).  Common setup would be: `nomdename.selector=name;username.default=rundeck;hostname.selector=networkInterfaces`
+* Specify your own `Mapping Params` (delimited by semi-colon).  Common setup would be: `nodename.selector=name;username.default=rundeck;hostname.selector=networkInterfaces`
 
 
 ### Disclaimer
